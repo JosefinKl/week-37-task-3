@@ -1,0 +1,48 @@
+:root{
+    background-color: rgb(201, 228, 126);
+    --dark-green:rgb(41, 52, 10);
+    --dark-black:rgb(17, 21, 5); 
+    --dark-black-subtitle:  rgb(25, 31, 7); 
+    font-family: Monaco;
+}
+
+header{
+    text-align: center;
+    padding: 1em;
+    margin: 2em;
+    color: var(--dark-black);
+}
+
+.description-text{
+    text-align: center;
+    color: var(--dark-green)
+}
+
+.qualifications{
+    padding: 5px;
+    padding-top: 5em;
+
+}
+
+h2{
+    color: var(--dark-black-subtitle);
+}
+.qualification-ul{
+    color: var(--dark-green);
+}
+    
+
+.footer-li{
+    list-style-type: none;
+    display: inline;
+    max-width: 100%;
+    
+}
+
+footer{
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    
+    
+}
